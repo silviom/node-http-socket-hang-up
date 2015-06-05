@@ -1,0 +1,40 @@
+{
+  "name": "http-socket-hang-up",
+  "version": "1.0.0",
+  "description": "Handles 'socket hang up' exception when an HTTP request last more than 2 minutes'",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silviom/node-http-socket-hang-up.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node.js",
+    "express",
+    "http",
+    "connect",
+    "socket",
+    "hangup",
+    "hang",
+    "up",
+    "120",
+    "seconds",
+    "2",
+    "minutes"
+  ],
+  "author": "Silvio Massari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silviom/node-http-socket-hang-up/issues"
+  },
+  "homepage": "https://github.com/silviom/node-http-socket-hang-up",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5"
+  }
+}
