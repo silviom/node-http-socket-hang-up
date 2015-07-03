@@ -1,6 +1,6 @@
 {
   "name": "http-socket-hang-up",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handles 'socket hang up' exception when an HTTP request last more than 2 minutes'",
   "main": "index.js",
   "scripts": {
@@ -31,10 +31,12 @@
     "url": "https://github.com/silviom/node-http-socket-hang-up/issues"
   },
   "homepage": "https://github.com/silviom/node-http-socket-hang-up",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "istanbul": "^0.3.14",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "rewire": "^2.3.4",
+    "sinon": "^1.15.4",
+    "wired": "0.0.0"
   }
 }
